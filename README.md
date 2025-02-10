@@ -17,8 +17,6 @@ Welcome to the **Simple Notes App** --- a lightweight and user-friendly applicat
 Here's a quick look at the **Notes App UI**:
 [Notes App UI](https://raw.githubusercontent.com/Najish-Ali/django-notes-app/main/image_2025-02-04_163452050.png)
 
-*(Replace with actul image URL if needed)*
-
 📋 Requirements
 ---------------
 
