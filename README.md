@@ -48,6 +48,8 @@ First, clone this repository to your local machine:
 
 git clone https://github.com/Najish-Ali/django-notes-app.git
 
+```
+
 ### 2\. Build the App with Docker
 
 [](https://github.com/Najish-Ali/django-notes-app/tree/dev?tab=readme-ov-file#2-build-the-app-with-docker)
@@ -58,6 +60,7 @@ Navigate to the project folder and build the Docker image:
 
 docker build -t notes-app .
 
+```
 This command will create a Docker image with the tag `notes-app`.
 
 ### 3\. Run the App
@@ -69,7 +72,7 @@ Now, run the app in a container:
 ```bash
 
 docker run -d -p 8000:8000 notes-app:latest
-
+```
 Your app should now be live and accessible at `http://localhost:8000`.
 
 * * * * *
@@ -90,7 +93,7 @@ Update your package list and install Nginx:
 ```bash
 
 sudo apt-get update sudo apt install nginx
-
+```
 Once installed, configure Nginx to point to the Django app running on `localhost:8000`. This allows you to expose the app on a domain name or IP address.
 
 * * * * *
@@ -141,3 +144,4 @@ After modifying the `README.md` file or adding features, follow these steps to
 ```bash
 
 git add README.md git commit -m "Added app preview image to README" git push origin main
+```
