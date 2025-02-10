@@ -2,7 +2,7 @@
 This is a simple notes app built with React and Django.
 
 ## Preview
-![Notes App UI](https://raw.githubusercontent.com/Najish-Ali/django-notes-app/main/image_2025-02-04_163452050.png)   <!-- Replace with actual image URL -->
+![Notes App UI](https://raw.githubusercontent.com/Najish-Ali/django-notes-app/main/image_2025-02-04_163452050.png)  <!-- Replace with actual image URL -->
 
 ## Requirements
 1. Python 3.9
