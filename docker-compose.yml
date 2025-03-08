@@ -12,7 +12,7 @@ services:
       - django_app
     networks:
       - notes-app-nw
-
+      
   django_app:
     build:
       context: .
